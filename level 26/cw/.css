@@ -1,0 +1,35 @@
+ /* #პირველი არის text-align; მას აქვს 3 aria-value
+1. right - ტექსტის მარჯვნივ წაღება
+2. left - ტექსტის მარცხნივ გადატანა
+3. center - ტექსტის ცენტრში გადატანა
+*/
+.text-alighn:center
+
+
+/*
+# text-shadow აძლევს მას ტექსტის ჩრდილს
+
+1. 10px - შეცვლის ადგილს x ღერძზე
+2. 30px - შეცვლის ადგილს y ღერძზე
+3. 40px - ბუნდოვნებას აძლევს
+4. gray - ჩრდილს აძლევს ფერს
+*/
+.text-shadow {
+    text-shadow: 10px 30px 5px gray
+}
+
+
+/* text-transform ადიდებს და აპატარავებს ასოებს
+
+1.uppercase - adidebs
+2.lowercase - apataravebs
+3. capitalize - sityvis pirvel asos adidebs
+
+*/
+
+.text {
+    text-transform: capitalize;
+
+
+}
+  

@@ -1,0 +1,38 @@
+
+button {
+    background-color: rgb(134, 187, 194);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.styled-button {
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+#special-button-1 {
+    background-color: rgb(222, 144, 238);
+    color: rgb(73, 100, 0);
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+#special-button-2 {
+    background-color: rgb(172, 172, 99);
+    color: rgb(31, 52, 77);
+    padding: 10px 20px;
+    margin: 5px;
+
+#special-button-3 {
+    background-color: pink;
+    color: red;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+}

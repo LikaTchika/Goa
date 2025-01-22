@@ -1,0 +1,11 @@
+div {
+    width: 300px; /* სიგანე */
+    height: 300px; /* სიმაღლე */
+    background-color: rgb(53, 201, 115); /* ფონი */
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(97, 55, 55);
+}

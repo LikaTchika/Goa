@@ -1,0 +1,23 @@
+
+
+.div1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 2px #239236;
+    border-radius: 10px;
+    top: 200px;
+    left: 300px;
+
+}
+
+.div2 {
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    border: 2px #e71a1a;
+    border-radius: 10px;
+    top: 350px;
+    left: 350px;
+
+}

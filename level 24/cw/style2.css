@@ -1,0 +1,6 @@
+/*p tag-ისთვის */
+.styled-paragraph {
+    font-size: 18px; /* შრიფტის ზომა */
+    color: #3e691b; /* ტექსტის ფერი */
+    line-height: 1; /* ხაზის სიმაღლე */
+  }
