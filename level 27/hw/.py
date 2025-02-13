@@ -1,1 +1,1 @@
-#codewars iyo
+#codewars iyo da ar gadmomitania

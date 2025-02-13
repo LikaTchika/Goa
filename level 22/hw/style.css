@@ -1,0 +1,23 @@
+/* Header section styling */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Section styling */
+section {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+section h2 {
+    color: #007BFF;
+}
+section p {
+    color: #555;
+    font-size: 16px;
+}
+

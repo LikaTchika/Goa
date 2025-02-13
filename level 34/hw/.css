@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+}
+
+.table-container {
+    margin: 30px auto;
+    width: 80%;
+}
+
+/* Dark-Themed Table */
+.dark-theme {
+    background-color: #1a1a2e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dark-theme table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+
+.dark-theme th, .dark-theme td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #444;
+}
+
+.dark-theme .highlight {
+    color: red;
+}
+
+.dark-theme .highlight-cell {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Fixed Header Table */
+.fixed-header {
+    background: linear-gradient(to right, #3eb489, #2ecc71);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.fixed-header table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+
+.fixed-header th, .fixed-header td {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.fixed-header th {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Pink-Themed Table */
+.pink-theme {
+    background: linear-gradient(to right, #ff7eb3, #ff758c);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.pink-theme h2, .pink-theme h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.pink-theme table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 5px;
+}
+
+.pink-theme th, .pink-theme td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.pink-theme th {
+    background: #ff4d6d;
+    color: white;
+}

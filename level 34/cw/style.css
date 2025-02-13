@@ -1,0 +1,24 @@
+h1:link {
+    color:purple;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+h2:link :visited{
+    color:rgb(0, 60, 128);
+    text-decoration:none;
+}
+
+h3:link :active {
+    color:rgb(128, 36, 0);
+    font-size: 100px;
+    background-color: rgb(32, 25, 87);
+}
+
+h4:link :hover {
+    color:purple;
+    background-color:underline ;
+    text-decoration:yellow
+}
+
+

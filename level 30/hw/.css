@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+
+}
+
+.list-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+
+h2. {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+
+}
+
+.arrrow list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.arrrow-list li::before {
+    content: '>';
+    position: absolute;
+    left: 0;
+    color: orange;
+    font-weight: bold;
+
+}
+arrow-list a {
+    text-decoration: none;
+    color: #0073e6;
+    transition: color 03s ease;
+
+}
+
+.arrow-list a:hover {
+    color: #005bb5;
+}

@@ -1,0 +1,64 @@
+# Python script to explain concepts and create a basic portfolio
+def explain_concepts():
+    concepts = {
+        "Game Development": "Game Development is the process of creating video games, involving design, programming, art, and audio to produce interactive and entertaining experiences.",
+        "AI (Artificial Intelligence)": "AI is a branch of computer science that enables machines to simulate human intelligence, learning from data and making decisions.",
+        "Web Development": "Web Development involves building and maintaining websites, including front-end (design and interactivity) and back-end (server-side logic) development."
+    }
+    return concepts
+
+
+def explain_frontend_backend():
+    explanation = {
+        "Front-end": "Front-end refers to the part of a website that users interact with directly, including design, layout, and interactivity, implemented using HTML, CSS, and JavaScript.",
+        "Back-end": "Back-end refers to the server-side of a website, handling databases, authentication, and application logic, often using languages like Python, PHP, or Node.js."
+    }
+    return explanation
+
+
+def create_portfolio():
+    html_content = """
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <style>
+            body { font-family: Arial, sans-serif; background-color: #f4f4f9; margin: 0; padding: 0; }
+            header { background: #333; color: #fff; padding: 10px 20px; text-align: center; }
+            section { padding: 20px; }
+            .card { border: 1px solid #ddd; margin: 10px; padding: 15px; background: #fff; border-radius: 5px; }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to My Portfolio</h1>
+        </header>
+        <section>
+            <h2>About Me</h2>
+            <p>Hello! I am an aspiring developer, passionate about learning Game Development, AI, and Web Development.</p>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <div class="card">
+                <h3>Project 1: My First Website</h3>
+                <p>A simple website created using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="card">
+                <h3>Project 2: AI Model</h3>
+                <p>An AI model that predicts trends using Python.</p>
+            </div>
+        </section>
+    </body>
+    </html>
+    """
+    with open("portfolio.html", "w", encoding="utf-8") as file:
+        file.write(html_content)
+    return "Portfolio website created successfully as 'portfolio.html'."
+
+
+# Execute the functions
+print("Concepts:", explain_concepts())
+print("Front-end and Back-end Explanation:", explain_frontend_backend())
+print(create_portfolio())
