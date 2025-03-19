@@ -1,0 +1,33 @@
+header {
+    position:fixed;
+
+}
+section{
+    position:static
+    top : 10px;
+    left: 250px;
+}
+
+section{
+    position: relative;
+    top: 10px;
+    left: 250px;
+}
+
+section{
+    position: absolute;
+    top: 10px;
+    left: 250px;
+}
+
+section{
+    position: fixed;
+    top: 10px;
+    left: 250px;
+}
+
+section{
+    position: sticky;
+    top: 10px;
+    left: 250px;
+}

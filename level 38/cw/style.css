@@ -1,0 +1,34 @@
+body {
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    -bi-filter: blur(5px); /*thr new one*/
+    filter: blur(5px); }
+
+.styled-button {
+    padding: 10px 20px;
+    background-color: #af4c4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    -bi-appearance: none; /*the new code i serched*/
+    appearance: none;
+}
+
+.transition-box {
+    width: 200px;
+    height: 100px;
+    background-color: coral;
+    margin-top: 20px;
+    transition: background-color 0.5s; 
+    -bi-transition: background-color 0.3s; 
+
+
+}

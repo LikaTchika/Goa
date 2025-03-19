@@ -1,38 +1,38 @@
 # 1. სიის შედგენა მომხმარებლის შეყვანისგან
-numbers = []  # ცარიელი სია
-print("შეიყვანეთ 10 რიცხვი:")
+numbers = []  
+print("write 10 words:")
 
 for i in range(10):  # 10-ჯერ შემოწმება
-    num = int(input(f"რიცხვი {i+1}: "))
+    num = int(input(f"number {i+1}: "))
     numbers.append(num)
 
-print("\nშექმნილი სია:", numbers)
+print("list:", numbers)
 
 # მაქსიმალური ელემენტის პოვნა სიაში
-max_num = numbers[0]  # სიის პირველი ელემენტი
+max_num = numbers[0]  
 for num in numbers:
     if num > max_num:
         max_num = num
 
-print("უდიდესი რიცხვი სიაში:", max_num)
+print("biggest bumber:", max_num)
 
 # ელემენტის წაშლა სიიდან
-delete_num = int(input("\nრომელი რიცხვის წაშლა გსურთ? "))
+delete_num = int(input("witch number you wanna delite "))
 if delete_num in numbers:
     numbers.remove(delete_num)
-    print("განახლებული სია:", numbers)
+    print("new list:", numbers)
 else:
-    print("ეს რიცხვი სიაში არ არის.")
+    print("number is not on the list")
 
 # 4. სიის საპირისპირო მიმდევრობით ჩაწერა
 reversed_list = []
-for i in range(len(numbers) - 1, -1, -1):  # ბოლო ელემენტიდან პირველამდე
+for i in range(len(numbers) - 1, -1, -1):
     reversed_list.append(numbers[i])
 
-print("სია საპირისპირო წესით:", reversed_list)
+print("reverse list", reversed_list)
 
 # 5. ელემენტის ძებნა სიაში
-search_num = int(input("\nრომელი რიცხვის ძებნა გსურთ? "))
+search_num = int(input("witch word you wanna find? "))
 found = False
 for num in numbers:
     if num == search_num:
@@ -40,6 +40,6 @@ for num in numbers:
         break
 
 if found:
-    print("რიცხვი სიაში არსებობს.")
+    print("word is in list.")
 else:
-    print("რიცხვი სიაში არ არის.")
+    print("word is not on list")

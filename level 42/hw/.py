@@ -1,0 +1,1 @@
+#codewars gavaketet da ekrani gavaziaret da ise vweret

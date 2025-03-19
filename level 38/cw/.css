@@ -1,0 +1,15 @@
+
+/*inlini*/
+.inline {
+    display: inline;
+}
+
+/*inline blocki*/
+.inline-block {
+    display: inline-block;
+}
+
+/*blocki*/
+.block {
+    display: block;
+}

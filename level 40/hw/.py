@@ -1,0 +1,1 @@
+#wasakitxi iyo masala da dasaweri da webze davwere

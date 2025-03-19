@@ -1,0 +1,50 @@
+
+
+:root {
+   
+    --button-font-size: 1.2em;
+
+    --font-size: 40px;
+    --letter-spacing: 3px;
+
+    --padding: 20px;
+    --margin: 25px;
+    --title-color: #d534db;
+    --paragraph: #f10f0f;
+}
+
+h1 {
+    color: var(--title-color);
+    font-size: var(--font-size);
+    letter-spacing: var(--letter-spacing);
+    padding: var(--padding);
+    margin: var(--margin);
+    display: block;
+    position: relative;
+    transform: rotate var(--rotate-angle);
+    transition: transform var(--transition-duration);
+}
+
+p {
+    background-color: var(--paragraph-bg);
+    font-size: var(--font-size);
+    letter-spacing: var(--letter-spacing);
+    padding: var(--padding);
+    margin: var(--margin);
+    top: 50px;
+    left: 20px;
+    display: inline;
+    position: absolute;
+}
+
+button {
+    font-size: var(--button-font-size);
+    padding: var(--padding);
+    margin: var(--margin);
+    display: inline;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    transform: rotate(100deg)
+    transition: translate(var(--transition-))
+}
