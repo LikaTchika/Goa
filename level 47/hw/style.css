@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Header Stylingi */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Grid Containeri */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Sdizaini Gridis Itemistvis */
+  .grid-item {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ferebs didi xani vewvale */
+  .item1 { background-color: #ffb6b9; }
+  .item2 { background-color: #ffdfba; }
+  .item3 { background-color: #fffae3; }
+  .item4 { background-color: #d4f1f4; }
+  .item5 { background-color: #c1f0c1; }
+  .item6 { background-color: #b7b7b7; }
+  .item7 { background-color: #f1c2f1; }
+  .item8 { background-color: #f2c2b3; }
+  .item9 { background-color: #e3f9e5; }
+  
+  
+  
